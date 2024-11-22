@@ -9,22 +9,25 @@
    **Resultado esperado:** Ao inserir um usuário aleatório, a plataforma deve barrar a entrada do usuário.  
    **Status:** Passou  
    **Ajuste:** Necessário ajustar o layout do retorno da resposta, o modal está quebrando impossibilitando a visualização do usuário.
+   
+   ![Sem título](https://github.com/user-attachments/assets/41372df4-5da1-4501-90a7-363258add946)
 
-2. **Login inserindo apenas usuário**
+
+3. **Login inserindo apenas usuário**
 
    **Passos:** Acesse a página e insira apenas o seu usuário e clique em "Login".  
    **Resultado obtido:** Ao inserir usuário, a plataforma retornou uma mensagem informando para inserir a senha.  
    **Resultado esperado:** Ao inserir apenas o usuário, a plataforma deve retornar uma mensagem informando que é necessário inserir usuário e senha.  
    **Status:** Passou
 
-3. **Login inserindo apenas senha**
+4. **Login inserindo apenas senha**
 
    **Passos:** Acesse a página e insira apenas a sua senha e clique em "Login".  
    **Resultado obtido:** Ao inserir senha, a plataforma retornou uma mensagem informando para inserir usuário e senha.  
    **Resultado esperado:** Ao inserir apenas o usuário, a plataforma deve retornar uma mensagem informando que é necessário inserir usuário e senha.  
    **Status:** Passou
 
-4. **Login com senha inválida**
+5. **Login com senha inválida**
 
    **Passos:** Acesse a página e insira seu usuário com uma senha inválida e clique em "Login".  
    **Resultado obtido:** Ao inserir senha inválida, a plataforma retorna o erro, mas a mensagem está em inglês.  
@@ -32,7 +35,7 @@
    **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.  
    **Status:** Necessário ajuste
 
-5. **Login com usuário inválido**
+6. **Login com usuário inválido**
 
    **Passos:** Acesse a página e insira apenas seu usuário inválido e clique em "Login".  
    **Resultado obtido:** Ao inserir o usuário inválido, a plataforma retorna o erro, mas a mensagem está em inglês.  
@@ -40,14 +43,14 @@
    **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.  
    **Status:** Necessário ajuste
 
-6. **Limite de caracteres**
+7. **Limite de caracteres**
 
    **Passos:** Acesse a página e insira mais que 50 caracteres no usuário e senha.  
    **Resultado obtido:** Campos usuário e senha estão sem limitação de caracteres.  
    **Resultado esperado:** Os campos usuário e senha devem conter limitação de caracteres.  
    **Status:** Necessário ajuste
 
-7. **Teste de Layout clique no ícone "x" para apagar texto completo**
+8. **Teste de Layout clique no ícone "x" para apagar texto completo**
 
    **Passos:** Insira um usuário e senha incorretos e clique em "Login".  
    **Resultado obtido:** Ao inserir o texto incorreto e clicar em login, é retornado o erro. Ao tentar apagar o texto clicando no ícone "x" do usuário e senha, o mesmo não funciona.  
