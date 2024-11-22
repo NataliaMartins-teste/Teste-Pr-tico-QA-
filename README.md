@@ -244,3 +244,4 @@
 
 **Etapa 4 - Adicionar e remover do carrinho**  
 1. Inserir modal que seja possível editar a quantidade de produto ao invés de só visualizar a quantidade.
+   
