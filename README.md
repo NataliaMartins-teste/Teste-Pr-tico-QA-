@@ -31,31 +31,38 @@
 
    **Passos:** Acesse a página e insira seu usuário com uma senha inválida e clique em "Login".  
    **Resultado obtido:** Ao inserir senha inválida, a plataforma retorna o erro, mas a mensagem está em inglês.  
-   **Resultado esperado:** A plataforma deve retornar o erro com a mensagem em português.  
-   **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.  
+   **Resultado esperado:** A plataforma deve retornar o erro com a mensagem em português.
    **Status:** Necessário ajuste
+   **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.
+   
+   ![Sem título](https://github.com/user-attachments/assets/41372df4-5da1-4501-90a7-363258add946)
 
-6. **Login com usuário inválido**
+7. **Login com usuário inválido**
 
    **Passos:** Acesse a página e insira apenas seu usuário inválido e clique em "Login".  
    **Resultado obtido:** Ao inserir o usuário inválido, a plataforma retorna o erro, mas a mensagem está em inglês.  
-   **Resultado esperado:** A plataforma deve retornar o erro com a mensagem em português.  
-   **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.  
+   **Resultado esperado:** A plataforma deve retornar o erro com a mensagem em português.
    **Status:** Necessário ajuste
+   **Ajuste:** Ajustar tradução da mensagem e layout do retorno da resposta, que está vindo quebrado, impossibilitando a visualização do usuário.
 
-7. **Limite de caracteres**
+   ![Sem título](https://github.com/user-attachments/assets/41372df4-5da1-4501-90a7-363258add946)
+
+9. **Limite de caracteres**
 
    **Passos:** Acesse a página e insira mais que 50 caracteres no usuário e senha.  
    **Resultado obtido:** Campos usuário e senha estão sem limitação de caracteres.  
    **Resultado esperado:** Os campos usuário e senha devem conter limitação de caracteres.  
    **Status:** Necessário ajuste
 
-8. **Teste de Layout clique no ícone "x" para apagar texto completo**
+10. **Teste de Layout clique no ícone "x" para apagar texto completo**
 
    **Passos:** Insira um usuário e senha incorretos e clique em "Login".  
    **Resultado obtido:** Ao inserir o texto incorreto e clicar em login, é retornado o erro. Ao tentar apagar o texto clicando no ícone "x" do usuário e senha, o mesmo não funciona.  
    **Resultado esperado:** Ao clicar no ícone "x", o texto deve ser apagado.  
    **Status:** Necessário ajuste
+
+   ![Sem título](https://github.com/user-attachments/assets/695b3b11-7a38-47b4-a2a9-5a44999fd193)
+
 
 ### Casos de teste: Etapa 2 - Ordenação e filtragem de produtos
 
@@ -112,21 +119,24 @@
    **Resultado esperado:** Deve ser possível editar a quantidade de produtos.  
    **Status:** Necessário ajuste
 
-4. **Verificar se é possível remover o produto do carrinho**
+   ![Sem título](https://github.com/user-attachments/assets/541c4fda-7a74-4602-9732-576793fc65f1)
+
+
+5. **Verificar se é possível remover o produto do carrinho**
 
    **Passos:** Na visualização do carrinho, clique em "Remover".  
    **Resultado obtido:** Ao clicar em "Remover", o produto está sendo removido do carrinho.  
    **Resultado esperado:** Ao clicar em "Remover", o produto deve ser removido.  
    **Status:** Passou
 
-5. **Adicionar produtos ao carrinho e verificar se o número de itens no carrinho é atualizado**
+6. **Adicionar produtos ao carrinho e verificar se o número de itens no carrinho é atualizado**
 
    **Passos:** Na visualização do carrinho, verifique se a quantidade é atualizada.  
    **Resultado obtido:** Ao adicionar produtos, o carrinho está sendo atualizado.  
    **Resultado esperado:** O carrinho deve sempre ser atualizado ao adicionar um novo produto.  
    **Status:** Passou
 
-6. **Verificar se ao clicar em "continuar comprando", a plataforma retorna para a página inicial com os produtos**
+7. **Verificar se ao clicar em "continuar comprando", a plataforma retorna para a página inicial com os produtos**
 
    **Passos:** Na visualização do carrinho, clique em "Continuar comprando".  
    **Resultado obtido:** Ao clicar em "Continuar comprando", a plataforma retornou para a página inicial.  
